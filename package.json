@@ -2,8 +2,9 @@
   "name": "bookapp",
   "version": "1.0.0",
   "description": "My first book app",
-  "main": "app.js",
+  "main": "src/app.js",
   "scripts": {
+    "build": "rollup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,9 @@
   ],
   "author": "Sergey Spasskiy",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^1.6.2"
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "eslint-config-google": "^0.14.0",
+    "rollup": "^4.9.0"
   }
 }
