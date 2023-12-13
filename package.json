@@ -8,11 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "(https://github.com/dezss01/bookApp.git)"
+    "url": "git+https://github.com/dezss01/bookApp.git"
   },
   "keywords": [
     "books"
   ],
   "author": "Sergey Spasskiy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2"
+  }
 }
